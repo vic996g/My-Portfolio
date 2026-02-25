@@ -4,10 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY ARTICLE</title>
+
+    <style>
+       .ai-article {
+      max-width: 800px;        
+      margin: 20px auto;       
+      padding: 25px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      background-color: #fdfdfd;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+        /* Header */
+        .ai-article header
+    .ai-article header h2 {
+      margin-bottom: 5px;
+      color: #1a73e8;          
+    }
+
+    .ai-article header p {
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    /* Subheadings */
+    .ai-article h3 {
+      margin-top: 20px;
+      color: #333;
+    }
+
+    /* Lists */
+    .ai-article ul {
+      margin-left: 20px;
+      list-style-type: disc;
+    }
+
+    /* Footer */
+    .ai-article footer {
+      margin-top: 30px;
+      font-size: 0.85em;
+      color: #555;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+    }
+
+    /* Optional: Section background */
+    .ai-article section {
+      background-color: #f1f5f9;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    /* Optional: Hover effect for the article */
+    .ai-article:hover {
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transform: translateY(-2px);
+      transition: all 0.3s ease;
+    }
+    </style>
 </head>
 <body>
-    <article>
-        <h1>AI-Assisted Software Engineering</h1>
+    <article class="ai-article">
+        <header>
+            <h1>AI-Assisted Software Engineering</h1>
+            <p>By Victor Anunobi | Feb 25, 2026</p>
+        </header>
+        <section>
         <p>AI-assisted software engineering is the use of artificial intelligence tools to support, improve, and accelerate the process of building software. It does not replace developers; it enhances their capability, speed, and decision-making.
              Instead of writing every line of code manually, engineers now collaborate with AI systems that can generate,
               review, optimize, and test code in real time.One major shift in this space is the rise of generative AI models such as OpenAI’s ChatGPT and GitHub Copilot developed by GitHub. These tools are trained on massive datasets of code and natural language. They understand programming patterns, documentation styles, and architecture structures. A developer can describe a feature in plain English, and the AI can generate a functional code snippet in languages such as JavaScript, Python, or Java.
@@ -27,6 +94,8 @@
                                 <li><strong>DOCUMENTATION AND KNOWLEDGE SUPPORT:</strong>AI can convert complex code into human-readable documentation, summarize large codebases, and explain legacy systems.
                                      This is useful in onboarding new developers and maintaining large enterprise systems</li>           
                 </ol>
+            </section>
+            <section>
                 <h2>Here’s a detailed list of AI-assisted software engineering tools (focused on code writing, review, testing, design, and dev workflow automation)</h2>
 <h3>Code Generation and Completion</h3>
 <ol>
@@ -63,6 +132,7 @@
     <li><strong>Harness-</strong>  Uses machine intelligence to optimize deployment pipelines and auto-resolve failures.</li>
     <li><strong>Jenkins X</strong> Adds smart automation and predictive insights in CI/CD workflows with plugin-driven AI.</li>
 </ol> 
+            </section>
 <aside>
     <p><strong>Tip:</strong> Always combine AI recommendations with human judgment. AI tools accelerate development but cannot fully replace critical thinking and design decisions.</p>
 </aside>
